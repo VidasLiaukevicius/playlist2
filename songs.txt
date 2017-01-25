@@ -1,63 +1,63 @@
 # playlist2 playlist with DTD
 
-<playlist>
-   <song id="1">                                                                <!--Song ID.-->
+<playlist xmlns:so"http://www.apple.org/song" xmlns:si="http://www.apple.org/singer">
+   <so:song id="1">                                                                <!--Song ID.-->
        <title>We are the champions</title>                                      <!--Song title.-->
        <group>Queen</group>                                                     <!--Group name.-->
        <duration>4:15</duration>                                                <!--Song duration.-->
        <album albumId="1">Raw days</album>                                      <!--Album ID and album title.-->
-       <name nameId="1" nationality="British" age="45">Fredy Mercury</name>     <!--Name of the main group singer, singer's ID and nationality.-->
+       <si:name nameId="1" nationality="British" age="45">Fredy Mercury</si:name>     <!--Name of the main group singer, singer's ID and nationality.-->
        <year>1997</year>                                                        <!--Album release year.-->
        <country>UK</country>                                                    <!--Country the group is from.-->
-   </song>
+   </so:song>
 
-   <song id="2">
+   <so:song id="2">
        <title>With or without you</title>
        <group>U2</group>
        <duration>3:45</duration>
        <album albumId="2">Never say never</album>
-       <name nameId="2" nationality="Irish" age="37">Bono</name>
+       <si:name nameId="2" nationality="Irish" age="37">Bono</si:name>
        <year>2009</year>
        <country>Ireland</country>
-   </song>
+   </so:song>
 
-   <song id="3">
+   <so:song id="3">
        <title>Who cares</title>
        <group>E17</group>
        <duration>4:15</duration>
        <album albumId="3">Resurection</album>
-       <name nameId="3" nationality="British" age="29">Brian Harvey</name>
+       <si:name nameId="3" nationality="British" age="29">Brian Harvey</si:name>
        <year>2005</year>
        <country>UK</country>
-   </song>
+   </so:song>
 
-   <song id="4">
+   <so:song id="4">
        <title>Evolution</title>
        <group>Prodigy</group>
        <duration>3:57</duration>
        <album albumId="4">Crazy times</album>
-       <name nameId="4" nationality="British" age="39">Liam Howlett</name>
+       <si:name nameId="4" nationality="British" age="39">Liam Howlett</si:name>
        <year>2007</year>
        <country>UK</country>
-   </song>
+   </so:song>
 
-   <song id="5"></song>
+   <so:song id="5"></song>
        <title>Barcelona</title>
        <group>Queen</group>
        <duration>4:45</duration>
        <album albumId="5">Revolution</album>
-       <name nameId="1" nationality="British" age="45">Fredy Mercury</name>
+       <si:name nameId="1" nationality="British" age="45">Fredy Mercury</si:name>
        <year>1995</year>
        <country>UK</country>
-   </song>
+   </so:song>
 
-   <song id="6">
+   <so:song id="6">
        <title>Streets with no names</title>
        <group>U2</group>
        <duration>4:22</duration>
        <album albumId="6">eXeS</album>
-       <name nameId="2" nationality="Irish" age="37">Bono</name>
+       <si:name nameId="2" nationality="Irish" age="37">Bono</si:name>
        <year>2001</year>
        <country>Ireland</country>
-   </song>
+   </so:song>
 </playlist>

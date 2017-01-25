@@ -1,5 +1,14 @@
 # playlist2 playlist with DTD
 
+<!DOCTYPE playlist
+[
+<!ELEMENT playlist (title,from,heading,body)>
+<!ELEMENT to (#PCDATA)>
+<!ELEMENT from (#PCDATA)>
+<!ELEMENT heading (#PCDATA)>
+<!ELEMENT body (#PCDATA)>
+]>
+
 <playlist xmlns:so"http://www.apple.org/song" xmlns:si="http://www.apple.org/singer">
    <so:song id="1">                                                                <!--Song ID.-->
        <title>We are the champions</title>                                      <!--Song title.-->
